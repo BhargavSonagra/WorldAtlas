@@ -1,0 +1,67 @@
+/* Removed Tailwind directives because they require Tailwind's build process. */
+/* If you are using Tailwind, make sure your build tool (like PostCSS) is configured properly. */
+
+body {
+    
+    font-family: 'Poppins', sans-serif;
+    max-width: 110rem;
+    background-color: #cecdcd; /* Light gray background */
+    background-color: rgb(39, 41, 46)
+}
+.container {
+    max-width: 90rem;
+    margin: auto;
+}@keyframes flagWave {
+  0% {
+    transform: perspective(600px) rotateY(0deg);
+  }
+  25% {
+    transform: perspective(600px) rotateY(5deg);
+  }
+  50% {
+    transform: perspective(600px) rotateY(0deg);
+  }
+  75% {
+    transform: perspective(600px) rotateY(-5deg);
+  }
+  100% {
+    transform: perspective(600px) rotateY(0deg);
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.flag-wave {
+  animation: flagWave 2s infinite ease-in-out;
+  transform-origin: left center;
+}
+
+.flag-shimmer {
+  background: linear-gradient(90deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0.25) 50%, rgba(255,255,255,0.05) 100%);
+  background-size: 200% 100%;
+  animation: shimmer 2s infinite;
+  pointer-events: none;
+}
+
+
+/* src/styles/responsive.css */
+/* @media (max-width: 477px) and (min-width: 767px) {
+  .btn-flex-custom {
+    flex-direction: column !important;
+  }
+} */
+
+
+@media (max-width: 459px) {
+  .btn-flex-custom {
+    flex-direction: column !important;
+  }
+}
+

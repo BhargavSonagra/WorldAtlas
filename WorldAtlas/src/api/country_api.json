@@ -1,0 +1,183 @@
+[
+  {
+    "id": 1,
+    "countryName": "India",
+    "capital": "New Delhi",
+    "statesCount": 28,
+    "continent": "Asia",
+    "populationCrores": 140,
+    "interestingFact": "India is home to the world's largest postal network."
+  },
+  {
+    "id": 2,
+    "countryName": "United States",
+    "capital": "Washington, D.C.",
+    "statesCount": 50,
+    "continent": "North America",
+    "populationCrores": 33.1,
+    "interestingFact": "The U.S. has no official language at the federal level."
+  },
+  {
+    "id": 3,
+    "countryName": "Brazil",
+    "capital": "Brasília",
+    "statesCount": 26,
+    "continent": "South America",
+    "populationCrores": 21.3,
+    "interestingFact": "Brazil is the only country in South America that speaks Portuguese."
+  },
+  {
+    "id": 4,
+    "countryName": "Australia",
+    "capital": "Canberra",
+    "statesCount": 6,
+    "continent": "Oceania",
+    "populationCrores": 2.6,
+    "interestingFact": "Australia has more kangaroos than people."
+  },
+  {
+    "id": 5,
+    "countryName": "Germany",
+    "capital": "Berlin",
+    "statesCount": 16,
+    "continent": "Europe",
+    "populationCrores": 8.3,
+    "interestingFact": "Germany is known for having over 1,500 types of beer."
+  },
+  {
+    "id": 6,
+    "countryName": "Canada",
+    "capital": "Ottawa",
+    "statesCount": 10,
+    "continent": "North America",
+    "populationCrores": 3.8,
+    "interestingFact": "Canada has the longest coastline in the world."
+  },
+  {
+    "id": 7,
+    "countryName": "Russia",
+    "capital": "Moscow",
+    "statesCount": 85,
+    "continent": "Europe/Asia",
+    "populationCrores": 14.4,
+    "interestingFact": "Russia spans 11 time zones."
+  },
+  {
+    "id": 8,
+    "countryName": "China",
+    "capital": "Beijing",
+    "statesCount": 23,
+    "continent": "Asia",
+    "populationCrores": 141,
+    "interestingFact": "China has the world's largest high-speed rail network."
+  },
+  {
+    "id": 9,
+    "countryName": "Mexico",
+    "capital": "Mexico City",
+    "statesCount": 32,
+    "continent": "North America",
+    "populationCrores": 12.6,
+    "interestingFact": "Mexico introduced chocolate to the world."
+  },
+  {
+    "id": 10,
+    "countryName": "Nigeria",
+    "capital": "Abuja",
+    "statesCount": 36,
+    "continent": "Africa",
+    "populationCrores": 21.6,
+    "interestingFact": "Nigeria is Africa’s most populous country."
+  },
+  {
+    "id": 11,
+    "countryName": "Argentina",
+    "capital": "Buenos Aires",
+    "statesCount": 23,
+    "continent": "South America",
+    "populationCrores": 4.5,
+    "interestingFact": "Argentina is the birthplace of tango."
+  },
+  {
+    "id": 12,
+    "countryName": "Indonesia",
+    "capital": "Jakarta",
+    "statesCount": 34,
+    "continent": "Asia",
+    "populationCrores": 27.3,
+    "interestingFact": "Indonesia is the world's largest island country."
+  },
+  {
+    "id": 13,
+    "countryName": "South Africa",
+    "capital": "Pretoria",
+    "statesCount": 9,
+    "continent": "Africa",
+    "populationCrores": 6,
+    "interestingFact": "South Africa has three capital cities."
+  },
+  {
+    "id": 14,
+    "countryName": "France",
+    "capital": "Paris",
+    "statesCount": 18,
+    "continent": "Europe",
+    "populationCrores": 6.7,
+    "interestingFact": "France is the most visited country in the world."
+  },
+  {
+    "id": 15,
+    "countryName": "Japan",
+    "capital": "Tokyo",
+    "statesCount": 47,
+    "continent": "Asia",
+    "populationCrores": 12.5,
+    "interestingFact": "Japan has more than 6,800 islands."
+  },
+  {
+    "id": 16,
+    "countryName": "Pakistan",
+    "capital": "Islamabad",
+    "statesCount": 4,
+    "continent": "Asia",
+    "populationCrores": 24,
+    "interestingFact": "Pakistan is home to the second-highest mountain in the world, K2."
+  },
+  {
+    "id": 17,
+    "countryName": "Italy",
+    "capital": "Rome",
+    "statesCount": 20,
+    "continent": "Europe",
+    "populationCrores": 6,
+    "interestingFact": "Italy has more UNESCO World Heritage sites than any other country."
+  },
+  {
+    "id": 18,
+    "countryName": "Saudi Arabia",
+    "capital": "Riyadh",
+    "statesCount": 13,
+    "continent": "Asia",
+    "populationCrores": 3.5,
+    "interestingFact": "Saudi Arabia is home to Mecca, Islam’s holiest city."
+  },
+  {
+    "id": 19,
+    "countryName": "Thailand",
+    "capital": "Bangkok",
+    "statesCount": 76,
+    "continent": "Asia",
+    "populationCrores": 7,
+    "interestingFact": "Thailand is the only Southeast Asian country never colonized by a European power."
+  },
+  {
+    "id": 20,
+    "countryName": "New Zealand",
+    "capital": "Wellington",
+    "statesCount": 16,
+    "continent": "Oceania",
+    "populationCrores": 0.5,
+    "interestingFact": "New Zealand has more sheep than people."
+  }
+]
+

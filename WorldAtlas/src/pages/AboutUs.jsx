@@ -43,7 +43,7 @@ const AboutUs = () => {
 
   
   return (
-    <div className="max-w-4xl mx-auto my-10 p-5 font-sans leading-relaxed text-white rounded-lg md:px-8 lg:px-10">
+    <div className="max-w-4xl mx-auto my-10 p-5 font-sans leading-relaxed text-white rounded-lg md:px-8 lg:px-10 mb-45">
       {/* Title */}
       <div className="text-center mb-10">
         <h1 className="text-7xl md:text-5xl font-extrabold text-blue-200 mb-8 mt-8">

@@ -117,7 +117,7 @@ const Country = () => {
 
 
   return (
-    <div className='my-10 pt-5'>
+    <div className='my-10 pt-5 mb-50'>
       <h1 className="text-7xl md:text-5xl font-extrabold text-blue-200 text-center mt-12 mb-10">
         List of Countries
         <span className="block w-26 h-1 bg-blue-300 rounded-full mx-auto mt-4"></span>

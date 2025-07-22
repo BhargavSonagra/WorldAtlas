@@ -1,18 +1,23 @@
-WorldAtlas
+<h1><b>WorldAtlas</b></h1>
+
+
+<img width="1913" height="912" alt="world atlas sc" src="https://github.com/user-attachments/assets/5b06f2cb-c000-45ef-a3e7-84386aefa253" />
+
+
 
 WorldAtlas is a React-based web application that allows users to explore a list of countries worldwide. The app provides search and filter functionalities to easily find countries. Once a country is selected, users can view detailed information, including links to the country's Wikipedia page and its history.
 
-Features
+<b>Features</b>
 
 - Country List: Displays a list of countries from around the world.
 - Search & Filter: Search and filter countries by name.
 - Country Details: View detailed information about each country.
-- Wikipedia Links: Each country has a direct link to its Wikipedia page.
-- History: Explore the history of the country with a separate Wikipedia link.
+- <b><i>Wikipedia Links:</i> Each country has a direct link to its separate Wikipedia page.</b>
+- <b><i>Wikipedia History Link: </i> Explore the history of the country with a separate Wikipedia link.</b>
 - Restcountries API: Fetches country data, including name, flag, population, and more.
-- GoogleMap links: Each country has a direct link to its Google Map.
+- <b>GoogleMap links: Each country has a direct link to its Google Map.</b>
 
-Technologies Used
+<b>Technologies Used</b>
 
 - React: JavaScript library for building the user interface.
 - Motion Framework: Adds smooth animations and transitions to the app.
@@ -23,38 +28,36 @@ Getting Started
 
 To run this project locally, follow the steps below:
 
-Prerequisites
+<b>Prerequisites</b>
 
 Make sure you have Node.js and npm installed on your system. You can download them from https://nodejs.org/.
 
-1. Clone the Repository
+<b> 1. Clone the Repository</b>
 
 Clone the repository to your local machine using the following command:
 
 git clone https://github.com/BhargavSonagra/WorldAtlas.git
 
-2. Install Dependencies
+<b> 2. Install Dependencies </b>
 
 Navigate to the project folder and install the required dependencies:
 
 cd worldatlas
 npm install
 
-3. Run the Application
+ <b>3. Run the Application</b>
 
 Once the dependencies are installed, you can start the development server:
 
 npm run dev
 
-Visit http://localhost:3000 in your browser to see the app in action.
-
-Usage
+<b>Usage</b>
 
 - Browse Countries: The homepage displays a list of countries. You can search for a country using the search bar.
 - Filter Countries: Use the filter option to narrow down the list of countries.
 - See Country Details: Click on any country to view detailed information, including its population, capital, and Wikipedia links.
 
-Example
+<b>Example</b>
 
 When you select a country, you will be redirected to a new page where you can see:
 

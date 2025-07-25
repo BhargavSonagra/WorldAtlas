@@ -1,13 +1,18 @@
 <h1><b>WorldAtlas</b></h1>
 
 
-<img width="1913" height="912" alt="world atlas sc" src="https://github.com/user-attachments/assets/5b06f2cb-c000-45ef-a3e7-84386aefa253" />
+<img width="900" height="612" alt="world atlas sc" src="https://github.com/user-attachments/assets/5b06f2cb-c000-45ef-a3e7-84386aefa253" />
 
 
 
 WorldAtlas is a React-based web application that allows users to explore a list of countries worldwide. The app provides search and filter functionalities to easily find countries. Once a country is selected, users can view detailed information, including links to the country's Wikipedia page and its history.
 
 <b>Features</b>
+
+<b> 🌍 Live Demo  </b><br/>
+Explore the project here: <br/>
+[My World Atlas](https://myworldatlass.netlify.app/)
+
 
 - Country List: Displays a list of countries from around the world.
 - Search & Filter: Search and filter countries by name.
@@ -67,16 +72,6 @@ When you select a country, you will be redirected to a new page where you can se
 - Population
 - Official Wikipedia link for the country
 - Link to the country's history on Wikipedia
-
-Contributing
-
-If you'd like to contribute to this project, feel free to fork the repository and submit a pull request. Please follow these steps:
-
-1. Fork the repository
-2. Create a feature branch (git checkout -b feature-branch)
-3. Make changes and commit them (git commit -m 'Add feature XYZ')
-4. Push to your forked repository (git push origin feature-branch)
-5. Create a pull request
 
 License
 

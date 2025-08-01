@@ -39,6 +39,8 @@ const CountryDetails = () => {
     fetchCountry();
   }, [id]);
 
+// convert to Wikipedia name format
+
   const formatForWikipedia = (name) => {
     if (!name) return 'Unknown_Country';
     return encodeURIComponent(name.trim().replace(/\s+/g, '_'));
@@ -55,6 +57,7 @@ const CountryDetails = () => {
     <div className="text-white border border-white rounded-md shadow-md flex flex-col md:flex-row gap-5 my-10 p-8 pt-10 pb-50 justify-start items-start ">
 
       {/* Flag and Map Section */}
+
       <div className="mt-30 w-full md:w-1/2 flex flex-col items-start">
         <div className="relative w-2/3 h-auto overflow-hidden rounded-md flag-wave shadow-md">
           <img
@@ -85,6 +88,7 @@ const CountryDetails = () => {
       </div>
 
       {/* Details Section */}
+
       <div className="w-full md:w-1/2 flex flex-col gap-4 mt-8">
 
         <h1 className="text-2xl mb-4 text-blue-500 font-semibold">

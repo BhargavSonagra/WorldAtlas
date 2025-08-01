@@ -94,6 +94,7 @@ const AboutUs = () => {
       </section>
 
       {/* How It Works */}
+
       <section>
         <h3
         ref={ref}
@@ -138,6 +139,7 @@ const AboutUs = () => {
       </section>
 
       {/* Technology */}
+
       <section>
         <h3 
         ref={ref}
@@ -154,6 +156,7 @@ const AboutUs = () => {
       </section>
 
       {/* CTA */}
+
       <div className="text-center bg-blue-950 p-8 rounded-lg border border-dashed border-blue-700 shadow-md shadow-blue-500/40">
         <p
        

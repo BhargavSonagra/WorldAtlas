@@ -50,6 +50,7 @@ const Country = () => {
   }, []);
 
   // Fetch countries and merge local data
+
   useEffect(() => {
     const fetchCountries = async () => {
       setLoading(true);
@@ -64,6 +65,7 @@ const Country = () => {
         // console.log("sorted ", sorted)
 
         // Merge with local data
+
         const mergedCountries = sorted.map(apiCountry => {
           const local = data.find(
             localItem => localItem.name?.toLowerCase() === apiCountry.name?.common?.toLowerCase()
@@ -71,7 +73,8 @@ const Country = () => {
 
           if (!local) return apiCountry;
 
-          // Remove `name` from local before merging to avoid overwriting API's name object
+         
+
           const { name, ...localWithoutName } = local;
 
           return {
@@ -94,6 +97,7 @@ const Country = () => {
   }, []);
 
   // Intersection Observer setup
+
   const observerCallback = useCallback((entries) => {
     entries.forEach((entry) => {
       const index = parseInt(entry.target.getAttribute('data-index'));
@@ -162,6 +166,7 @@ const Country = () => {
 
 
       {/* //////////// */}
+
       <div
         ref={containerRef}
         className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 px-8 pb-12 text-white"

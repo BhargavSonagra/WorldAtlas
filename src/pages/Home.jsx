@@ -11,10 +11,11 @@ const Home = () => {
     <div className='my-10 pt-5'>
       <h2 className="text-7xl md:text-5xl font-extrabold text-blue-200 text-center mt-12 mb-10 relative">
         Welcome To <span className="text-blue-400">WorldAtlas</span>
-        {/* Underline for the title */}
+        
         <span className="block w-16 h-1 bg-blue-300 rounded-full mx-auto mt-4"></span>
       </h2>
       <main className="grid grid-cols-1 md:grid-cols-2 gap-7 h-full p-6 m-5 my-5">
+
         {/* Column 1 */}
 
         <div className="bg-gray-800 text-white p-6 rounded-md shadow-[0_4px_12px_rgba(0,0,0,0.6)]">
@@ -35,6 +36,7 @@ const Home = () => {
         </div>
 
         {/* Column 2 */}
+
         <div className="bg-gray-800 text-white rounded-md shadow-[0_4px_12px_rgba(0,0,0,0.6)] flex justify-center items-center p-6">
           <img
             src="/images/world_image.jpg"

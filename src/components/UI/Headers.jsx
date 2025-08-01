@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import { FaGithub, FaLinkedin } from 'react-icons/fa'; // Import 
+import { FaGithub, FaLinkedin } from 'react-icons/fa'; 
 
 
 const navItems = ['Home', 'About', 'Country', 'Contact'];
@@ -15,7 +15,9 @@ const Headers = () => {
     <header className="bg-gray-800 text-white fixed top-0 left-0 w-full z-50 shadow-md shadow-gray-900/100">
       <div className="container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
+
           {/* Logo */}
+
           <NavLink
             to="/"
             className="text-3xl font-bold hover:text-blue-400 transition-colors"
@@ -24,6 +26,7 @@ const Headers = () => {
           </NavLink>
 
           {/* Desktop Navigation */}
+
           <div className="hidden md:flex space-x-6">
             <a
               href="https://www.linkedin.com/in/bhargav-sonagra"
@@ -35,6 +38,7 @@ const Headers = () => {
             </a>
 
             {/* GitHub Icon */}
+
             <a
               href="https://github.com/BhargavSonagra"
               target="_blank"
@@ -62,6 +66,7 @@ const Headers = () => {
           </div>
 
           {/* Mobile Toggle Button */}
+
           <button
             onClick={toggleMenu}
             className="md:hidden p-2 rounded-md hover:text-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-400"
